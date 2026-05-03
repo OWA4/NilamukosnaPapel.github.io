@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Team Crumpled Paper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="resources/Cp_Logo.png" alt="Team Crumpled Paper Logo">
+            </a>
+            <nav class="navbar">
+                <a href="stories.html" class="nav-link">
+                    <span class="nav-icon-wrapper">
+                        <img src="resources/Icons/Stories.png" alt="Stories">
+                        <span class="nav-text">Stories</span>
+                    </span>
+                </a>
+                <a href="news.html" class="nav-link">
+                    <span class="nav-icon-wrapper">
+                        <img src="resources/Icons/News.png" alt="News">
+                        <span class="nav-text">News</span>
+                    </span>
+                </a>
+                <a href="about.html" class="nav-link">
+                    <span class="nav-icon-wrapper">
+                        <img src="resources/Icons/About us.png" alt="About">
+                        <span class="nav-text">About</span>
+                    </span>
+                </a>
+                <a href="contacts.html" class="nav-link">
+                    <span class="nav-icon-wrapper">
+                        <img src="resources/Icons/Contacts.png" alt="Contact">
+                        <span class="nav-text">Contact</span>
+                    </span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-container">
+            <div class="coming-soon-content">
+                <img src="resources/Icons/Locked.png" alt="Locked" class="lock-icon-large">
+                <h2 class="coming-soon-text">Coming Soon...</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3 class="join-text">Join now!!</h3>
+            <img src="resources/logo white ver.png" alt="Team Crumpled Paper Logo"
+                style="max-width: 200px; height: auto;">
+            <p class="social-label">Social Contact</p>
+            <div class="social-buttons">
+
+                <a href="https://www.facebook.com/share/1DS1YvcPr2/" target="_blank" class="social-btn">
+                    <img src="resources/Icons/Facebook.png" alt="Facebook" class="social-icon">
+                    Facebook
+                </a>
+                <a href="https://discord.gg/uNQPYZeVzZ" target="_blank" class="social-btn">
+                    <img src="resources/Icons/Discord.png" alt="Discord" class="social-icon">
+                    Discord
+                </a>
+                <button class="social-btn" onclick="showEmailPopup()">
+                    <img src="resources/Icons/Email.png" alt="Email" class="social-icon">
+                    Email
+                </button>
+            </div>
+            <div class="footer-copyright">
+                <p>© 2026 Crumpled Papers Studio. All rights reserved.<br>
+                    All original content on this website is owned by Crumpled Papers Studio. Some stories and written
+                    works are contributed by independent writers and remain the intellectual property of their
+                    respective authors. Proper credit is given where due.<br>
+                    Unauthorized use, reproduction, or distribution of any content without permission is strictly
+                    prohibited.<br>
+                    Crumpled Papers Studio is an independent creative group. Any similarities to other works are purely
+                    coincidental.<br>
+                    For inquiries, collaborations, or permissions, feel free to contact us.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Email Popup Modal -->
+    <div id="emailModal" class="email-modal">
+        <div class="email-modal-content">
+            <span class="email-modal-close" onclick="closeEmailPopup()">&times;</span>
+            <h2>Contact Us</h2>
+            <p class="email-display">Crumpledpapers63@gmail.com</p>
+            <button class="copy-email-btn" onclick="copyEmail()">Copy Email</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
